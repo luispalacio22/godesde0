@@ -5,6 +5,9 @@ import (
 	"runtime"
 
 	"github.com/luispalacio22/godesde0/ejercicios"
+	"github.com/luispalacio22/godesde0/files"
+	"github.com/luispalacio22/godesde0/iteraciones"
+	"github.com/luispalacio22/godesde0/teclado"
 	"github.com/luispalacio22/godesde0/variables"
 )
 
@@ -32,4 +35,12 @@ func main() {
 	fmt.Println(numero)
 	fmt.Println(text)
 
+	teclado.IngresoNumeros()
+
+	iteraciones.Iterar()
+	fmt.Println(ejercicios.Ejercicio2())
+	files.GrabaTabla()
+	files.SumaTabla()
+	files.LeoArchivo()
+	files.LeoArchivo2()
 }
