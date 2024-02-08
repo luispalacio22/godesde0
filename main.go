@@ -1,18 +1,11 @@
 package main
 
 import (
-	"fmt"
-	"runtime"
-
-	"github.com/luispalacio22/godesde0/ejercicios"
-	"github.com/luispalacio22/godesde0/files"
-	"github.com/luispalacio22/godesde0/iteraciones"
-	"github.com/luispalacio22/godesde0/teclado"
-	"github.com/luispalacio22/godesde0/variables"
+	users "github.com/luispalacio22/godesde0/usuarios"
 )
 
 func main() {
-	estado, texto := variables.ConvirtiendoTexto(1568)
+	/*estado, texto := variables.ConvirtiendoTexto(1568)
 	fmt.Println(estado)
 	fmt.Println(texto)
 	os := runtime.GOOS
@@ -42,5 +35,16 @@ func main() {
 	files.GrabaTabla()
 	files.SumaTabla()
 	files.LeoArchivo()
-	files.LeoArchivo2()
+	files.LeoArchivo2() */
+
+	//funciones.Calculos()
+	//funciones.LlamarClosure()
+	//funciones.Exponencial(2)
+	//arreglos_slices.MuestroArregleo()
+	//arreglos_slices.MuestroSlice()
+	//arreglos_slices.Capacidad()
+	//mapas.MostrarMapas()
+
+	users.AltaUsuario()
+
 }
